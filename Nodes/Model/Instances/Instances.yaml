@@ -1,0 +1,194 @@
+Name: Instances
+Id: g=6addf51bda1c4bcfca726da3c77e8371
+Type: FolderType
+Children:
+- Name: Motor1
+  Id: g=4b2549b33e7cbc3a38f473673005ff61
+  Type: MotorType
+  Children:
+  - Name: Temperature
+    Id: g=8394a5b0c4e4ed3e9f16fc70fb41cfe1
+    Type: AnalogItemType
+    DataType: Float
+    Children:
+    - Name: EURange
+      Id: g=ed0a1475f9ffb508adbfe66945e54a6d
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=cfd49ba8b20923ffb70d0afdd99ae74e
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 10.0
+      - Name: High
+        Id: g=d4ef8101a76bdaf00f007187551417cf
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 50.0
+  - Name: IsRunning
+    Id: g=93436493d87c7383100219a8a6159993
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CurrentSpeed
+    Id: g=284eb8b22c6af5145c3097c17bd49e10
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Class: Reference
+    Target: g=40b79a9dd34814ad5ea0646d46676ffa
+    Direction: Forward
+  - Class: Reference
+    Target: g=08decf294ed715d2d869021e7494e315
+    Direction: Forward
+- Name: Motor2
+  Id: g=04599ba0a5b49d3f909680530bcd74a9
+  Type: MotorType
+  Children:
+  - Name: Temperature
+    Id: g=8ecdd380999f07f75dfe48981ec47821
+    Type: AnalogItemType
+    DataType: Float
+    Children:
+    - Name: EURange
+      Id: g=c76d0941cd08483a36e40eba1c221881
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=c5d699dc0f06795b4c9eaab70f874543
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 10.0
+      - Name: High
+        Id: g=5a8d9de969d6b888a3068e788ed8fc0f
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 50.0
+  - Name: IsRunning
+    Id: g=07dc40d0e2868ecafef739069f81b610
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CurrentSpeed
+    Id: g=10bb08f008e0d9203880eb2df3962d34
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Class: Reference
+    Target: g=40b79a9dd34814ad5ea0646d46676ffa
+    Direction: Forward
+  - Class: Reference
+    Target: g=08decf294ed715d2d869021e7494e315
+    Direction: Forward
+- Name: Motor3
+  Id: g=3eea7896c5aa228474edbec6c1b95283
+  Type: MotorType
+  Children:
+  - Name: Temperature
+    Id: g=7218673664609889008da321fb43e259
+    Type: AnalogItemType
+    DataType: Float
+    Children:
+    - Name: EURange
+      Id: g=00c31183e09bd10c95453f8eecca746e
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=b3fff3d4e25216896eaf2d1a54ac16ce
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 10.0
+      - Name: High
+        Id: g=394911a5ed7beceb3fef75a742ef8e17
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 50.0
+  - Name: IsRunning
+    Id: g=ad87b316ed5e3e44133647b9d8139c33
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CurrentSpeed
+    Id: g=c8175d2e852929b1f871808bb4895967
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Class: Reference
+    Target: g=40b79a9dd34814ad5ea0646d46676ffa
+    Direction: Forward
+  - Class: Reference
+    Target: g=08decf294ed715d2d869021e7494e315
+    Direction: Forward
+- Name: Motor4
+  Id: g=e04b6654bbcebbbbb50c5c0f324c164a
+  Type: MotorType
+  Children:
+  - Name: Temperature
+    Id: g=e1e965cda2fc0e3dde4f1aa7d9356a11
+    Type: AnalogItemType
+    DataType: Float
+    Children:
+    - Name: EURange
+      Id: g=573d8b111033606977a5119c772a19b5
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=c85b925cd6839e8b6d11df5b4a125a21
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 10.0
+      - Name: High
+        Id: g=952cd96ed59dc0b3d3a72cdf03339a74
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 50.0
+  - Name: IsRunning
+    Id: g=4f31b72ee47caaa34ab84f71050d8031
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CurrentSpeed
+    Id: g=c8efa8bf4138a4bdf2549cd92f64cce2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Class: Reference
+    Target: g=40b79a9dd34814ad5ea0646d46676ffa
+    Direction: Forward
+  - Class: Reference
+    Target: g=08decf294ed715d2d869021e7494e315
+    Direction: Forward
+- Name: Motor5
+  Id: g=333524d359ced6cef421cd4f3dbaef89
+  Type: MotorType
+  Children:
+  - Name: Temperature
+    Id: g=8902a6e59cdccf6838f7a563b4d99cf1
+    Type: AnalogItemType
+    DataType: Float
+    Children:
+    - Name: EURange
+      Id: g=ed59e91cef158b68da15d147f051502b
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=46677f7e9948a8d29145ef11960139c5
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 10.0
+      - Name: High
+        Id: g=99c0bf06cc7a47f607656caea7298a36
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 50.0
+  - Name: IsRunning
+    Id: g=6f8021fbbb605f112e62ebcd12d75af1
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CurrentSpeed
+    Id: g=c5e7b059f93f979af596f3b3c69884b4
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Class: Reference
+    Target: g=40b79a9dd34814ad5ea0646d46676ffa
+    Direction: Forward
+  - Class: Reference
+    Target: g=08decf294ed715d2d869021e7494e315
+    Direction: Forward

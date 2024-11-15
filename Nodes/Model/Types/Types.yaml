@@ -1,0 +1,70 @@
+Name: Types
+Id: g=45319bbc3a3144f87176ba755b429be3
+Type: FolderType
+Children:
+- Name: MotorType
+  Id: g=d472abc4907e97c6a00480cc86de1805
+  Supertype: BaseObjectType
+  Children:
+  - Name: Temperature
+    Id: g=7e70b659f8593519a32611a3cccebc82
+    Type: AnalogItemType
+    DataType: Float
+    Children:
+    - Name: EURange
+      Id: g=3e09d8496f80d2adeae2edb7266f78c8
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=59b7a3e0f2a908e4fbb02543acc3578c
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 10.0
+      - Name: High
+        Id: g=2932f0a1e1cd7f9a1ab749235e56d066
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 50.0
+    - Name: EngineeringUnits
+      Id: g=93ea5c541349235b9ae556ccd8cdf0f1
+      Type: EUInformationType
+      DataType: EUInformation
+      ModellingRule: Optional
+      Children:
+      - Name: UnitId
+        Id: g=66a13734725df2e72011dab9c62a0e98
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4408652
+      - Name: DisplayName
+        Id: g=0dc4dc9a7d664cec1e8cd9d9087ad386
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Id: g=ccb0346b98df58ad98081ae6d498efd8
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+  - Name: IsRunning
+    Id: g=87a8b5cb244adb67dfdec31bd33c306b
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CurrentSpeed
+    Id: g=f5d59b8e6990a2a6bfb6f03e4518c1d0
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Class: Method
+    Name: StartMotor
+    Id: g=40b79a9dd34814ad5ea0646d46676ffa
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=b23a93e5c0aadc1faa6d37a430fdb4ce
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"targetSpeed","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: StopMotor
+    Id: g=08decf294ed715d2d869021e7494e315

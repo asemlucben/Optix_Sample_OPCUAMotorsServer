@@ -1,0 +1,56 @@
+Project:
+ Name: Optix_Sample_OPCUAMotorsServer
+ GUID: f1772461a41deb5cf04204089fba36b1
+ ProjectNamespaceIndex: 10
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.5
+ CoreVersion: 4.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 2.0
+  3:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  4:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
+  5:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  6:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  7:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 6.5
+  8:
+   Uri: 'urn:FTOptix:HMIProject:Net'
+   Module: FTOptix.HMIProject.Net
+   Version: 4.8
+  9:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 4.0
+ Statistics:
+  TotalNodeCount: 100
+  Objects: 36
+  ObjectTypes: 1
+  Variables: 61
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 2
+  References: 10
+  ReferenceTypes: 0
+  Files: 22
+ Nodes:
+ - File: Nodes/Optix_Sample_OPCUAMotorsServer.yaml
