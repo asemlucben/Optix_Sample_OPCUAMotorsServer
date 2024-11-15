@@ -58,15 +58,15 @@ Project:
    Module: FTOptix.NativeUI.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 195
-  Objects: 80
-  ObjectTypes: 2
-  Variables: 111
+  TotalNodeCount: 606
+  Objects: 208
+  ObjectTypes: 3
+  Variables: 393
   VariableTypes: 0
   DataTypes: 0
   Methods: 2
   References: 15
   ReferenceTypes: 0
-  Files: 22
+  Files: 23
  Nodes:
  - File: Nodes/Optix_Sample_OPCUAMotorsServer.yaml
