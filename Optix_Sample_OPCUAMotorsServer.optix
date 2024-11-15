@@ -41,15 +41,31 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 4.0
+  11:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 14.2
+  12:
+   Uri: 'urn:FTOptix:UI:Net'
+   Module: FTOptix.UI.Net
+   Version: 14.2
+  13:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.1
+  14:
+   Uri: 'urn:FTOptix:NativeUI:Net'
+   Module: FTOptix.NativeUI.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 100
-  Objects: 36
-  ObjectTypes: 1
-  Variables: 61
+  TotalNodeCount: 195
+  Objects: 80
+  ObjectTypes: 2
+  Variables: 111
   VariableTypes: 0
   DataTypes: 0
   Methods: 2
-  References: 10
+  References: 15
   ReferenceTypes: 0
   Files: 22
  Nodes:
