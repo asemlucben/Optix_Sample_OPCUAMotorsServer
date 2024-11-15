@@ -26,6 +26,24 @@ Children:
         Type: BaseDataVariableType
         DataType: Double
         Value: 50.0
+    - Name: EngineeringUnits
+      Id: g=1a9eaa5db2a0aa534278ea6639677bba
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Id: g=a40a4a31d6599d39329431788468517f
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4408652
+      - Name: DisplayName
+        Id: g=e7513c6a23101b0172055c9e117bbe6a
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Id: g=ca8a47b557ebb5d71ebc0f9bb812b382
+        Type: BaseDataVariableType
+        DataType: LocalizedText
   - Name: IsRunning
     Id: g=93436493d87c7383100219a8a6159993
     Type: BaseDataVariableType
@@ -64,6 +82,24 @@ Children:
         Type: BaseDataVariableType
         DataType: Double
         Value: 50.0
+    - Name: EngineeringUnits
+      Id: g=0835400728346a4a50abb6727cd9f6fd
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Id: g=8bab463e0867df590037db4615b36cab
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4408652
+      - Name: DisplayName
+        Id: g=9cb6d783ce8129891af3ce868ce60433
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Id: g=f3ffbe52dccc403598956a1b1adbc6f7
+        Type: BaseDataVariableType
+        DataType: LocalizedText
   - Name: IsRunning
     Id: g=07dc40d0e2868ecafef739069f81b610
     Type: BaseDataVariableType
@@ -102,6 +138,24 @@ Children:
         Type: BaseDataVariableType
         DataType: Double
         Value: 50.0
+    - Name: EngineeringUnits
+      Id: g=afc54e119b859fab686bd37a13ff4be6
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Id: g=a7ccde83112eedbdee62c5e11ebb896a
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4408652
+      - Name: DisplayName
+        Id: g=8fa7d9e94450901c559f29f72243d27a
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Id: g=0f722b83a67b42b6892eae893e8aac2f
+        Type: BaseDataVariableType
+        DataType: LocalizedText
   - Name: IsRunning
     Id: g=ad87b316ed5e3e44133647b9d8139c33
     Type: BaseDataVariableType
@@ -140,6 +194,24 @@ Children:
         Type: BaseDataVariableType
         DataType: Double
         Value: 50.0
+    - Name: EngineeringUnits
+      Id: g=80bcebea8c0f0539dd69b561f00fc661
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Id: g=fbbcb28216cc43e5cb1634c2003f5a29
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4408652
+      - Name: DisplayName
+        Id: g=5046e9f3cbaf9cdf73df4a55426d2697
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Id: g=94827ce4934e2f440812de7ba89f0dcd
+        Type: BaseDataVariableType
+        DataType: LocalizedText
   - Name: IsRunning
     Id: g=4f31b72ee47caaa34ab84f71050d8031
     Type: BaseDataVariableType
@@ -178,6 +250,24 @@ Children:
         Type: BaseDataVariableType
         DataType: Double
         Value: 50.0
+    - Name: EngineeringUnits
+      Id: g=7221113d849213de023a91f40c6210e8
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Id: g=d2dc30f4dbb1728708f6f850f5166881
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 4408652
+      - Name: DisplayName
+        Id: g=c199d275be91a34bf29c7529e9dabe6c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Id: g=31242501b8bc7d6d96a77efdbb893e7c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
   - Name: IsRunning
     Id: g=6f8021fbbb605f112e62ebcd12d75af1
     Type: BaseDataVariableType
